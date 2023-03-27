@@ -14,8 +14,11 @@ body {
 
 body {
     background-image: url(../imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main {
@@ -32,8 +35,8 @@ main {
     height: 627px;
     width: 311px;
     background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
 }
-
 
 iframe#screen {
     position: relative;
